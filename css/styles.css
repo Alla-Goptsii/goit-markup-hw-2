@@ -115,6 +115,7 @@ cursor: pointer;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   
   color: var(--color-title);
 }
@@ -128,12 +129,18 @@ cursor: pointer;
   border: 0;
   padding: 0;
 }
+/* 
+  white-space: nowrap;
+  clip-path: inset(100%);
+  overflow: hidden; */
+
 /*-------- preference -----------*/
 
 .preference-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 
   color: var(--color-title);
 }
@@ -144,6 +151,7 @@ cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
 
   color: var(--color-title);
 }
@@ -157,6 +165,7 @@ cursor: pointer;
 .team-item {
   font-size: 16px;
   line-height: 1.18;
+    letter-spacing: 0.03em;
 
   color: var(--primary-color-text);
 }
@@ -165,20 +174,17 @@ cursor: pointer;
 
 .footer {
   background-color: var(--bgc-dark);
+}
+
+address {
   font-style: normal;
 }
 
-.address {
-font-size: 14px;
-line-height: 1.71;
-font-style: normal;
-
+.map {
 color: #FFFFFF;
 }
 
 .link-footer{
-  font-style: normal;
-
   color: rgba(255, 255, 255, 0.6);
   }
 
@@ -204,6 +210,7 @@ color: #FFFFFF;
 .button:hover,
 .button:focus {
   background: #2196F3;
+  color: #ffffff;
 }
 
 .portfolio .current{
